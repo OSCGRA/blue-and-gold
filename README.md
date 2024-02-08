@@ -221,7 +221,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,9 +230,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Your Name - Oscar Reinoso - oscarmanuel.re@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,9 +239,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Attribution of eurostatapiclient: https://github.com/opus-42/eurostat-api-client
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
