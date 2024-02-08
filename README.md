@@ -83,11 +83,35 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This data visualization project aims to explore and depict the distribution of the Blue Banana and Gold Banana in Europe, incorporating the concept of sea connectography flows. The project utilizes data provided by Eurostat and represents it within NUTS (Nomenclature of Territorial Units for Statistics) regions.
+
+The Blue Banana denotes a chain of highly urbanized and industrialized regions extending from southern England to northern Italy, traversing through Belgium, the Netherlands, Luxembourg, Germany, Switzerland, and France. The Gold Banana encompasses a broader swath of territory, encompassing regions in Spain and Portugal.
+
+I(we) leverage datasets provided by Eurostat, the statistical office of the European Union, offering comprehensive socio-economic and geospatial information about Europe. This data is structured within NUTS regions, facilitating a hierarchical breakdown of territorial units for statistical analysis.
+
+<strong>Integration with Sea Connectography Flows:</strong>
+
+In addition to examining the socio-economic dynamics within the Blue Banana and Gold Banana, this project incorporates the connectography flows to visualize tge influence on economic activities and regional development, by integrating  data.
+
+<strong>Exploring Conceptual Questions:</strong>
+
+**Is Blue Banana a Real Phenomenon?:** We delve into the debate surrounding the Blue Banana, examining whether it constitutes a real geographical and economic pentagram, particularly considering the inclusion of metropolitan areas like Berlin and Paris within its framework.
+
+**Relation between Blue Banana and Gold Banana:** We scrutinize the relationship between the Blue Banana and the Gold Banana, assessing whether the latter can be perceived as an extension of the former, or if they represent distinct socio-economic corridors with unique characteristics
+
+<strong>Project Objective:</strong>
+
+Our overarching goal is to create an interactive visualization platform that illustrates both, conectivity and phisical, dimensions of the Blue Banana and Gold Banana regions. Through this holistic approach, we seek to uncover patterns of economic development, trade flows, cultural exchanges, political and social patterns and digital spaces complementing our understanding of land-based connectivity.
+
+**Technologies Used:**
+
+Python: for data manipulation and analysis.
+Pandas, NumPy: for data cleaning and processing.
+Matplotlib, Seaborn: for creating static charts.
+Plotly, Folium: for generating interactive visualizations, including maps with maritime routes.
+Jupyter Notebook: for exploratory data analysis and visualization prototyping.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -102,8 +126,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -113,26 +135,41 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
   ```sh
-  npm install npm@latest -g
+    pip install eurostatapiclient 
+  ```
+or:
+  ```sh
+    conda install eurostatapiclient 
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. API Cofiguration:
+   ```sh
+    from eurostatapiclient import EurostatAPIClient
+   
+    VERSION = '1.0'
+    FORMAT = 'json' 
+    LANGUAGE = 'en'
+   ```
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+    git clone https://github.com/OSCGRA/blue-and-gold.git
    ```
 3. Install NPM packages
    ```sh
-   npm install
+    pip install geopandas
+    pip install geoplot
    ```
-4. Enter your API in `config.js`
+4. Enter the dataset code from Eurostad database: (example: met_gind3)
    ```js
-   const API_KEY = 'ENTER YOUR API';
+    dataset = client.get_dataset('met_gind3')
+    print(dataset.label)
+    df = dataset.to_dataframe();
    ```
+<a href="https://ec.europa.eu/eurostat/web/main/data/database">EUROSTAT Database</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
