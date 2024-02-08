@@ -30,23 +30,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+
+  <a href="https://github.com/OSCGRA/blue-and-gold">
+    <img src="https://github.com/OSCGRA/blue-and-gold/assets/77927558/dccb0804-25b1-4013-8eba-bf51230afd79" alt="Logo" width="350" height="350">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">BLUE & GOLD</h3>
 
   <p align="center">
-    project_description
+    Working towards connectography concept in UE 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/OSCGRA/blue-and-gold"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/OSCGRA/blue-and-gold/blob/main/Blue%20%26%20Gold%20(New).ipynb">View Demo</a>
+    
   </p>
 </div>
 
