@@ -81,9 +81,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/OSCGRA/blue-and-gold/assets/77927558/c87f6c15-edc7-496e-8b61-a523f0c9b3d3" alt="Blue&Gold" width="500" height="500" class="centered-image">
 
-
+<div align="center">
+  <img src="https://github.com/OSCGRA/blue-and-gold/assets/77927558/c87f6c15-edc7-496e-8b61-a523f0c9b3d3"     
+   alt="Blue&Gold" width="500" height="500" class="centered-image">
+</div>
+<br />
 This data visualization project aims to explore and depict the distribution of the Blue Banana and Gold Banana in Europe, incorporating the concept of sea connectography flows. The project utilizes data provided by Eurostat and represents it within NUTS (Nomenclature of Territorial Units for Statistics) regions.
 
 The Blue Banana denotes a chain of highly urbanized and industrialized regions extending from southern England to northern Italy, traversing through Belgium, the Netherlands, Luxembourg, Germany, Switzerland, and France. The Gold Banana encompasses a broader swath of territory, encompassing regions in Spain and Portugal.
