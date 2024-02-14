@@ -1,0 +1,8 @@
+USEFUL WEBSITES:
+
+@chrispahm > https://observablehq.com/@chrispahm/download-selected-nuts-regions#close
+MAPCHART > https://www.mapchart.net/europe-nuts3.html
+MANUAL OF USEFUL STATISTICS > https://ec.europa.eu/eurostat/documents/3859598/8012444/KS-GQ-17-006-EN-N.pdf
+EUROSTATD > https://ec.europa.eu/eurostat/web/main/data/database
+GISCO > https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts
+TERCET > https://gisco-services.ec.europa.eu/tercet/flat-files
