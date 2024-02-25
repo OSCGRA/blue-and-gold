@@ -1,32 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -57,7 +28,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#setup">Setup</a></li>
       </ul>
     </li>
     <li>
@@ -75,8 +46,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -107,26 +76,24 @@ In addition to examining the socio-economic dynamics within the Blue Banana and 
 
 Our overarching goal is to create an interactive visualization platform that illustrates both, conectivity and phisical, dimensions of the Blue Banana and Gold Banana regions. Through this holistic approach, we seek to uncover patterns of economic development, trade flows, cultural exchanges, political and social patterns and digital spaces complementing our understanding of land-based connectivity.
 
-**Technologies Used:**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Python: for data manipulation and analysis.
-Pandas, NumPy: for data cleaning and processing.
-Matplotlib, Seaborn: for creating static charts.
-Plotly, Folium: for generating interactive visualizations, including maps with maritime routes.
-Jupyter Notebook: for exploratory data analysis and visualization prototyping.
+<!-- SETUP -->
+## Setup
+
+This section should list any major frameworks/libraries used to bootstrap this project.
+* Python installed on your system (Python 3.10.1 recommended).
+  
+* Required Python libraries installed:
+    - **Pandas:** [v1.3.3](https://pandas.pydata.org/)  
+    - **NumPy:** [v1.21.4](https://numpy.org/)  
+    - **Matplotlib:** [v3.4.3](https://matplotlib.org/)  
+    - **Seaborn:** [v0.11.2](https://seaborn.pydata.org/)  
+    - **GeoPandas:** [v0.10.2](https://geopandas.org/)
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +149,7 @@ or:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This section is under construction, thanks for your understanding.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -198,10 +165,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+This section is under construction, thanks for your understanding.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -220,8 +186,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -229,15 +193,18 @@ Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
+<a href="mailto:oscarmanuel.re@gmail.com">
+  
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Oscar Reinoso - oscarmanuel.re@gmail.com
+Feel free to reach out to me via email, LinkedIn, or Reddit for any inquiries, contributions to projects, or potential job opportunities:
+
+- **Email:** [oscarmanuel.re@gmail.com](mailto:oscarmanuel.re@gmail.com)
+- **LinkedIn:** [Oscar Reinoso Estevez](https://www.linkedin.com/in/oscar-reinoso-estevez/)
+- **Reddit:** [u/posore01](https://www.reddit.com/user/posore01)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
